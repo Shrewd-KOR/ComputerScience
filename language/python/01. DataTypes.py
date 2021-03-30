@@ -66,8 +66,30 @@
   dict = {'name' : 'kjh',  ... }
   - 쌍 추가하기 dic['address'] = 'gangnam2'
   - 요소 삭제하기 del dic['address']
-                  
+  - Key 리스트 만들기 dict.keys()
+  - Value 리스트 만들기 dict.values()
+  - Key,Value 리스트 얻기 dict.items()
+  - Value 얻기 dict[key] dict.get(key)
+  - 안에 있는지 조사하기 'name' in dict => True or False
+  
+ 6. 집합 자료형
+  set()
+  - 중복을 허용하지 않음
+  - 순서가 없음
+  - 교집합(&)
+  - 합집합(|)
+  - 차집합(-)
+  - 값 추가하기 set.add(value)
+  - 값 여러 개 추가하기 set.update(value1, value2)
+  - 값 제거하기 set.remove(value3)
+  
+ 7. 불 자료형
+  True, False (대소문자 구분)
+  
  
+ 
+  
+  
    
    
  
