@@ -64,7 +64,9 @@
  
  5. 딕셔너리(=연관 배열, 해시) 자료형
   dict = {'name' : 'kjh',  ... }
-  
+  - 쌍 추가하기 dic['address'] = 'gangnam2'
+  - 요소 삭제하기 del dic['address']
+                  
  
    
    
