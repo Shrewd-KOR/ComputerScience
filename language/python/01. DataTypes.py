@@ -30,6 +30,7 @@
  - 문자열 삽입 join(str) 문자열 str사이에 구분자 삽입
  - 공백제거 lstrip() rstrip() strip()
  - 문자열 바꾸기 replace()
+ - 문자열 나누기 split() 
 
 3. 리스트 자료형
  - 리스트(List)
