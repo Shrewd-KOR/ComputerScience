@@ -7,11 +7,15 @@
    do1
  elsif 조건:
    do2
- else 조건:
+ else:
    do3
    
  - 들여쓰기 (spacebar 4개 권장)
  - pass
+
+ - 조건부 표현식
+  message = 'success' if score >= 60 else "failure"
+ 
   
 2. While
  while 조건:
@@ -25,9 +29,10 @@
    do
  
  - range(a,b): a이상 b미만의 숫자들
+  
  - 리스트 내포 For문
   [표현식 for i in list1 if 조건1
          for j in list2 if 조건2
         ...
         for k in listn if 조건n]
- 
+   result = [num*3 for num in a if num % 2 == 0]
